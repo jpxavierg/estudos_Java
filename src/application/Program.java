@@ -8,6 +8,7 @@ public class Program {
 	public static void main(String[] args) {
 		Locale.setDefault(Locale.US);
 		Scanner sc = new Scanner(System.in);
+		System.out.println("**** Bem vindo ****");
 		System.out.println("Entre com um número:");
 		int x = sc.nextInt();
 		sc.nextLine();
